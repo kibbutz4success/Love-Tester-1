@@ -4,10 +4,10 @@
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
-count_1 = 0
-count_2 = 0
 name1 = name1.upper()
 name2 = name2.upper()
+count_1 = 0
+count_2 = 0
 
 for i in name1:
     if i == "T":
